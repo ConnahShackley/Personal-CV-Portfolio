@@ -15,7 +15,7 @@ const Hero = (props) => (
       <SectionText>
         The purpose of this Portfolio is to showcase my technical skills using HTML/CSS, Javascript and React.js when developing applications. Also, the portfolio also contains details about Me, my academic qualifications, and my previous Javascript Projects which can be found on my GitHub reposiroties page.
       </SectionText>
-      <Button>Get in Touch</Button>
+      <Button onClick={() => window.location = 'https://outlook.live.com/owa/'}>Email me!</Button>
     </LeftSection>
   </Section>
 
